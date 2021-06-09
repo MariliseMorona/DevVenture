@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Meu Primeiro Projeto</string>
+    <string name="action_settings">Configurações</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Primeiro fragment</string>
+    <string name="second_fragment_label">Segundo fragmento</string>
+    <string name="next">Próximo</string>
+    <string name="previous">Prévia</string>
+
+    <string name="hello_first_fragment">Primeiro fragmento</string>
+    <string name="hello_second_fragment">Segundo fragmento</string>
+</resources>
