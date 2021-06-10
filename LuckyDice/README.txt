@@ -24,4 +24,7 @@ R: Desenho das telas simplificada:
    Desenho da tela do jogador
 	Tela de inclusão do nome do jogador
 
+
+
+https://user-images.githubusercontent.com/58515198/121449164-a2835180-c96f-11eb-9f76-16ad9bf3e456.mp4
 	
