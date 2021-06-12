@@ -3,4 +3,8 @@
     <string name="dado01">Dado01</string>
     <string name="dado02">Dado02</string>
     <string name="play">Play</string>
+    <string name="dado_01">Valor</string>
+    <string name="name">Name</string>
+    <string name="btn_insert">Insert</string>
+    <string name="message">Welcome %s, será que você está com sorte hoje?</string>
 </resources>

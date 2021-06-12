@@ -17,4 +17,10 @@ R: Desenho das telas de forma simplificada:
 
 
 
+<<<<<<< HEAD
 	
+=======
+
+https://user-images.githubusercontent.com/58515198/121449164-a2835180-c96f-11eb-9f76-16ad9bf3e456.mp4
+	
+>>>>>>> 7a912f0 (Add view for insert player name)

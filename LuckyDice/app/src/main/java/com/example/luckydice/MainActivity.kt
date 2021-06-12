@@ -12,9 +12,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+//        val dado01 = findViewById<TextView>(R.id.txt_dado01)
+//        val dado02 = findViewById<TextView>(R.id.txt_dado02)
         val dado01 = findViewById<ImageView>(R.id.mgv_dado01)
         val dado02 = findViewById<ImageView>(R.id.mgv_dado02)
         val btn = findViewById<Button>(R.id.btn_jogar)
+        val player = intent.getStringExtra("playerName")
+        val text = findViewById<TextView>(R.id.txt_description)
+
+        val message = getString(R.string.message, player)
+
+        text.text = message
 
         val images = listOf(
             R.drawable.dice_1, R.drawable.dice_2, R.drawable.dice_3,
@@ -24,6 +32,9 @@ class MainActivity : AppCompatActivity() {
         btn.setOnClickListener {
             dado01.setImageResource(images.get(geraAleatorio()))
             dado02.setImageResource(images.get(geraAleatorio()))
+//            dado01.text = geraAleatorio().toString()
+//            dado02.text = geraAleatorio().toString()
+
 
             //OR
             //dado01.setImageResource(images[geraAleatorio()-1])
@@ -64,6 +75,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun geraAleatorio(): Int {
+//        return (1..6).random()
         return (0..5).random()
+
     }
 }
