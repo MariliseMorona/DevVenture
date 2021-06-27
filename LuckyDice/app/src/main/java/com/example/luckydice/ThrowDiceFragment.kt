@@ -1,5 +1,6 @@
 package com.example.luckydice
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -13,6 +14,7 @@ import com.example.luckydice.databinding.FragmentThrowDiceBinding
 class ThrowDiceFragment : Fragment() {
     private var binding: FragmentThrowDiceBinding? = null
 
+    @SuppressLint("QueryPermissionsNeeded")
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
